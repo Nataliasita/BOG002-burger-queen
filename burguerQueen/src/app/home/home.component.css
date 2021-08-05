@@ -1,0 +1,74 @@
+.home_app{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("src/assets/images/fn_home.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat ;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    display: none;
+}
+.titleHome{
+    font-family:'Parisienne', cursive;
+    top: 7vh;
+    position: absolute;
+    color: #FFF9F9;
+    font-size: 3.5em;
+    left: 40.5vw;
+    text-shadow: 2px 2px 2px rgb(136, 136, 136);
+}
+#subtitleH{
+    font-family:'Georama', sans-serif;
+    top: 20vh;
+    position: absolute;
+    color: #FFF9F9;
+    font-size: 2em;
+    left: 41.5vw;
+}
+#line{
+    position: absolute;
+    height:100ng vh;
+    width: 90vw;
+    background-image:url("src/assets/images/line.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: rotate(-11deg);
+    border-radius: 1000px;
+}
+#burguer{
+    position: absolute;
+    height: 49vh;
+    width: 23vw;
+    background-image:url("src/assets/images/burg.png");
+    background-size: 110% 115%;
+    background-repeat: no-repeat;
+    border-radius: 1100px; 
+    left: 37vw;
+    z-index: 2;
+    top: 25vh;
+}
+#chef{
+    position: absolute;
+    height: 30vh;
+    width: 14vw;
+    background:url("src/assets/images/perfil_chef.png");
+    background-size: 103% 103%;
+    background-repeat: no-repeat;
+    left: 10vw;
+    top: 10vh;
+    border-radius: 1020px;
+    z-index: 2;
+}
+#waiter{
+    position: absolute;
+    height: 30vh;
+    width: 14vw;
+    background:url("src/assets/images/perfil_mesero.png");
+    background-size: 103% 103%;
+    background-repeat: no-repeat;
+    right: 10vw;
+    bottom: 10vh;
+    border-radius: 1020px;
+}

@@ -1,0 +1,48 @@
+.contenedor{
+    width: 100vw;
+    height: 88vh;
+    background-image:url("src/assets/images/fondo-inf.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 12vh;
+    position: absolute;
+
+}
+.order{
+    width: 49vw;
+    height: 84vh;
+    position: absolute;
+    border: 1.5px solid #793500;
+    top: 2.5vh;
+    left: 0.5vw;
+    opacity: 1;
+}
+#titleOrder{
+    width: 49vw;
+    height: 8vh;
+    text-align: center;
+    background: url("src/assets/images/fn_red.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:#FFF9F9;
+    padding-top: 1.5vh;
+}
+.main{
+    width: 49vw;
+    height: 84vh;
+    position: absolute;
+    border: 1px solid #793500;
+    top: 2.5vh;
+    right: 0.5vw;
+}
+#titleMain{
+    width: 49vw;
+    height: 8vh;
+    text-align: center;
+    background: url("src/assets/images/fn_main.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color:#FFF9F9;
+    padding-top: 1.5vh;
+}
