@@ -4,22 +4,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { HeaderWaiterComponent } from './header-waiter/header-waiter.component';
 import { ContaintWaiterComponent } from './containt-waiter/containt-waiter.component';
 import { ProductsComponent } from './products/products.component';
+import { CommonModule } from '@angular/common';
+import { TomarPedidoComponent } from './containt-waiter/tomar-pedido/tomar-pedido.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderWaiterComponent,
     ContaintWaiterComponent,
     ProductsComponent,
+    TomarPedidoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

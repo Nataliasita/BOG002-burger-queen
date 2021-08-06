@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./containt-waiter.component.css']
 })
 export class ContaintWaiterComponent implements OnInit {
+  
+  show:Boolean =true
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
+    
   }
+
+ tomarpedido(){
+  this.show=false
+ }
 
 }

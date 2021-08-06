@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderWaiterComponent } from './header-waiter.component';
+import { TomarPedidoComponent } from './tomar-pedido.component';
 
-describe('HeaderWaiterComponent', () => {
-  let component: HeaderWaiterComponent;
-  let fixture: ComponentFixture<HeaderWaiterComponent>;
+describe('TomarPedidoComponent', () => {
+  let component: TomarPedidoComponent;
+  let fixture: ComponentFixture<TomarPedidoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeaderWaiterComponent ]
+      declarations: [ TomarPedidoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderWaiterComponent);
+    fixture = TestBed.createComponent(TomarPedidoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

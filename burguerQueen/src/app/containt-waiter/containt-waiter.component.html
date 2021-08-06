@@ -1,8 +1,31 @@
-<section class="contenedor">
-      <div class="order">
-            <h1 id="titleOrder">Datos del pedido</h1>
-      </div>
-      <div class="main">
-            <h1 id="titleMain">Menu</h1>
-      </div>
+<header class="header">
+      <a [routerLink]= "['/home']"><img id="returnHome" src="assets/images/header-icon.png"><img id="nameMain" src="assets/images/name.png"></a>
+      <ul class="list">
+          <li><button id="btn_tomarOrden" (click) ="show=!show">Tomar Pedido</button></li>
+          <li><a href="" id="pedidos">Mis pedidos<img id="start" src="assets/images/start.png"></a></li>
+          <li><a href="" id="opcion_agregar">Agregar productos adicionales a cuenta<img id="agregar" src="assets/images/agregar-btn.png"></a></li>
+      </ul>
+      <img id="perfil">
+</header>
+
+<section class="contenedor" >
+
+</section>
+<ng-template #showDos>
+    <p id="titleIntro">Bienvenido colaborador</p>
+    <img src="assets/images/init.png" id="imageInit" >
+    <img src="assets/images/initName.png" id="imageName">
+</ng-template>
+
+
+<section class="contenedorPedidos" *ngIf="show;else showDos">
+
+    <div class="order">
+             <h1 id="titleOrder">Datos del pedido</h1>
+    </div>
+    <div class="main">
+             <h1 id="titleMain">Menu</h1>
+                     <button id="btn_desayuno">Desayuno</button>
+                     <button id="btn_almuerzo">Almuerzo y cena</button>
+    </div>
 </section>

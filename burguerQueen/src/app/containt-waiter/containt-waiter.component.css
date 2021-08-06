@@ -1,24 +1,140 @@
+.header{
+    height: 11.5vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #793500;
+}
+.list{
+    padding: 0;
+    margin: 0 8vw 0 0;
+    padding: 0;
+    list-style:none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'lora';
+}
+.header li{
+    font-size: 1.23em;
+    padding: 3.5vh 2vw 0 0;
+  }
+.header li a{
+    text-decoration: none;
+    color: #FFF9F9;
+    font-weight: bold;
+  }
+#returnHome{
+    height: 10vh;
+    position: absolute;
+}
+#nameMain{
+    height: 13vh;
+    width: 22vw;
+    position: absolute;
+    left: 5.5vw;
+    top: 1vh;
+}
+#agregar{
+    height: 5vh;
+    position: absolute;
+    right: 33vw;
+}
+#opcion_agregar{
+    font-size: 0.85em;
+    width: 10vw;
+    border-left: solid #FFF9F9; 
+    padding-left: 5vw;
+}
+#pedidos{
+    border-left: solid #FFF9F9; 
+    padding-left: 5vw;
+}
+#start{
+    height: 7vh;
+    position: absolute;
+    right: 47.5vw;
+    top: 2.3vh;
+}
+#perfil{
+    position: absolute;
+    height: 7.5vh;
+    width:3.8vw;
+    background:url("src/assets/images/perfil_mesero.png");
+    background-size: 103% 103%;
+    background-repeat: no-repeat;
+    right: 2vw;
+    border-radius: 1020px;
+    top: 2.3vh;
+}
+#btn_tomarOrden{
+    border: none;
+    background: #793500;
+    color: #FFF9F9;
+    font-family: 'lora';
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2vh 2vw 2vh 2vw;
+    margin-top: -2vh;
+    margin-right: -2vw;
+} 
+#btn_tomarOrden:hover{
+    background: #4e2200;
+    height: 5vh;
+    padding: 2vh 1.5vw 8vh 1.5vw;
+}
 .contenedor{
     width: 100vw;
-    height: 88vh;
+    height: 128vh;
     background-image:url("src/assets/images/fondo-inf.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 12vh;
     position: absolute;
-
+    display: flex;
+}
+#titleIntro{
+    margin-top: 19vh;
+    margin-left: 35vw;
+    color: #793500;
+    font-size: 3em;
+    font-family:'Parisienne', cursive;
+    position: absolute;
+    font-weight: bold;
+    position: absolute;
+}
+#imageInit{
+    margin-top: 23vh;
+    height: 50vh;
+    margin-left: 20vw;
+    position: absolute;
+}
+#imageName{
+    width: 26vw;
+    height: 20vh;
+    margin-top:45vh;
+    position: absolute;
+    margin-left: 45vw;
+}
+.contenedorPedidos{
+    width: 100vw;
+    height: 128vh;
+    margin-top: 12vh;
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    font-family: 'lora';
 }
 .order{
-    width: 49vw;
-    height: 84vh;
+    width: 48.5vw;
+    height: 125vh;
     position: absolute;
     border: 1.5px solid #793500;
-    top: 2.5vh;
+    top: 2vh;
     left: 0.5vw;
     opacity: 1;
 }
 #titleOrder{
-    width: 49vw;
+    width: 48.5vw;
     height: 8vh;
     text-align: center;
     background: url("src/assets/images/fn_red.jpg");
@@ -26,17 +142,19 @@
     background-repeat: no-repeat;
     color:#FFF9F9;
     padding-top: 1.5vh;
+    font-size: 1.4em;
 }
 .main{
-    width: 49vw;
-    height: 84vh;
+    width: 48.5vw;
+    height: 125vh;
     position: absolute;
     border: 1px solid #793500;
-    top: 2.5vh;
-    right: 0.5vw;
+    top: 2vh;
+    right: 1.5vw;
+    display: flex;
 }
 #titleMain{
-    width: 49vw;
+    width: 48.5vw;
     height: 8vh;
     text-align: center;
     background: url("src/assets/images/fn_main.jpg");
@@ -45,4 +163,27 @@
     opacity: 0.9;
     color:#FFF9F9;
     padding-top: 1.5vh;
+    font-size: 1.4em;
+}
+#btn_desayuno{
+    margin-top: 9vh;
+    position: absolute;
+    width: 24vw;
+    height:8vh;
+    margin-right: 0.5vw;
+    background-color: #B88E4F;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1.3em;
+}
+#btn_almuerzo{
+    margin-top: 9vh;
+    position:absolute;
+    width: 24vw;
+    height: 8vh;
+    left: 24.4vw;
+    background-color: #B88E4F;
+    font-family: 'Lora', 'serif';
+    color:#FFF9F9 ;
+    font-size: 1.3em;
 }

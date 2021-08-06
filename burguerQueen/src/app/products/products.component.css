@@ -1,30 +1,11 @@
 .products{
     width: 49vw;
-    height: 75vh;
+    height: 115vh;
     background: blue;
     top: 23.5vh;
     position: absolute;
-    right: 0.5vw;
-    display: flex;
-}
-#btn_desayuno{
-    width: 24.5vw;
-    height:8vh;
-    margin-right: 0.5vw;
-    background-color: #B88E4F;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1.3em;
-    box-shadow: 0 0 10px rgba(105, 105, 105, 0.6);
-}
-#btn_almuerzo{
-    width: 24.5vw;
-    height: 8vh;
-    background-color: #B88E4F;
-    font-family: 'Lora', 'serif';
-    color:#FFF9F9 ;
-    font-size: 1.3em;
-    box-shadow: 0 0 10px rgba(105, 105, 105, 0.6);
+    right: -0.3vw;
+    display: none;
 }
 #main_breakfast{
     width: 17vw;
@@ -32,7 +13,7 @@
     background: yellow;
     position: absolute;
     top: 10vh;
-    
+    display: none;
 }
 .titleSandwichs{
     width: 16vw;
@@ -85,4 +66,39 @@
     border: 1px solid #3f1b00e1;
     background-color: #FFF9F9 ;
     cursor: pointer;
+}
+#main_lunch{
+    width: 17vw;
+    height: 105vh;
+    background: yellow;
+    position: absolute;
+    top: 10vh;
+}
+.titleBurguer{
+    width: 16vw;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+    border-bottom: 1.8px solid #3F1B00;
+    font-weight: bold;
+    padding: 1vh 0 0.5vh 0.8vw ;
+}
+.burguer{
+    margin-top:1.2vh;
+    font-family: 'Lora', 'serif';
+    color: #3F1B00;
+    font-size: 1em;
+    width: 15vw;
+    font-weight: bold;
+    padding: 2vh 1vw 2vh 1vw;
+    border: 1px solid #3f1b00e1;
+    background-color: #FFF9F9 ;
+    cursor: pointer;
+}
+.titleAcompañamientos{
+    width: 16vw;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+    border-bottom: 1.8px solid #3F1B00;
+    font-weight: bold;
+    padding: 2.5vh 0 0.5vh 0.8vw ;
 }
