@@ -1,0 +1,28 @@
+<div class="table_lunch" *ngIf="burguerOp1">
+    <img class="image_sand" src="assets/images/yepes.jpg" >
+        <p class="nombre_producto">Hamburguesa de Res Sencilla Queen 182</p>
+        <p class="descripcion_producto">Certificada Angus beef a la parrilla, con queso provolone fundido, tocineta anillo de cebolla, pepinillos mas la salsa de la casa, una verdadera explosion de sabor.</p>
+        <p class="precio_producto_lunch">Precio $ 10</p>
+        <a (click)="burguerOp2=!burguerOp2"><img class="flecha" src="assets/images/flecha_bl_up.png" alt=""></a>
+ </div>
+<form action="">
+<input id="simple" type="radio" name="op"><label id="simple_name" for="simple">Sencilla</label> 
+<input id="doble" type="radio" name="op"><label for="doble" id="doble_name">Doble</label>
+</form> 
+              <app-contador></app-contador>        
+     <p id="opcional">Opcional por $1 adicional pueden agregar</p>
+     <form action="">
+     <input id="chessee" type="checkbox" name="op2"><label for="chessee" id="chess_name">Queso  _ o </label>
+     <input id="egg" type="checkbox" name="op2"><label for="egg" id="egg_name">Huevo</label>
+    </form>
+     <button class="add_product_lunch">Agregar Producto</button>
+
+
+     
+     <div class="table_lunch2" *ngIf="burguerOp2">
+        <img class="image_sand" src="assets/images/burguer2.jpg" >
+            <p class="nombre_producto">Hamburguesa de Res Doble carne Queen 182</p>
+            <p class="descripcion_producto">Certificada Angus beef a la parrilla, con queso provolone fundido, tocineta, anillo de cebolla, pepinillos mas la salsa de la casa, una verdadera explosion de sabor.</p>
+            <p class="precio_producto_lunch">Precio $ 15</p>
+            <a (click)="burguerOp2=!burguerOp2"><img class="flecha_op2" src="assets/images/flecha_bl_up.png" alt=""></a>
+     </div>

@@ -6,18 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./containt-waiter.component.css']
 })
 export class ContaintWaiterComponent implements OnInit {
-  
-  show:Boolean =true
-
+desayuno:boolean=true
   constructor() { 
   }
 
   ngOnInit(): void {
     
   }
+cambio_main(){
+  this.desayuno=false
+}
 
- tomarpedido(){
-  this.show=false
- }
+
 
 }

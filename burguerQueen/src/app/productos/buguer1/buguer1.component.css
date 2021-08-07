@@ -1,0 +1,147 @@
+.table_lunch{
+    width: 29vw;
+    height: 67vh;
+    background-image:url("src/assets/images/table.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 6;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #FFF9F9;
+    justify-content: center;
+    text-align: center;
+}
+.image_sand{
+    border-radius: 15px;
+    position: absolute;
+    height:33vh;
+    width: 27vw;
+    left: 1vw;
+    top: 2vh;
+}
+.nombre_producto{
+    top:35.5vh;
+    width: 22vw;
+    left: 4vw;
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+.descripcion_producto{
+    top:45vh;
+    height: 15vh;
+    width: 25vw;
+    margin:0 1vw 0 2vw;
+    position: absolute;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #fef4eda1 ;
+}
+.precio_producto_lunch{
+    top:61vh;
+    width: 29vw;
+    position: absolute;
+    font-size: 1.4em;
+    font-weight:bold;
+    text-align: center;
+}
+.add_product_lunch{
+    position: absolute;
+    bottom: 0.2vh;
+    left: 4.5vw;
+    height:8vh;
+    width: 20vw;
+    background: #B88E4F;
+    border: none;
+    font-family: 'Lora', 'serif'; 
+    color: #FFF9F9;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgb(133, 133, 133);
+    cursor: pointer;
+}
+#simple{
+    position: absolute;
+    bottom: 31vh;
+    left: 7vw;
+}
+#doble{
+    position: absolute;
+    bottom: 31vh;
+    left: 17vw;
+}
+#simple_name{
+    position: absolute;
+    bottom: 30vh;
+    left: 8.5vw;
+    font-size: 1.2em;
+}
+#doble_name{
+    position: absolute;
+    bottom: 30vh;
+    left: 18.5vw;
+    font-size: 1.2em;
+}
+#opcional{
+    position: absolute;
+    font-weight: bold;
+    bottom: 16vh;
+    left: 3vw;
+}
+#chessee{
+    position: absolute;
+    bottom: 12vh;
+    left: 7vw;
+}
+#egg{
+    position: absolute;
+    bottom: 12vh;
+    left: 17vw;
+}
+#chess_name{
+    position: absolute;
+    bottom: 11.5vh;
+    left: 8.5vw;
+    font-size: 1em;
+    font-weight: bold;
+}
+#egg_name{
+    position: absolute;
+    bottom: 11.5vh;
+    left: 18.5vw;
+    font-size: 1em;
+    font-weight: bold;
+}
+.flecha{
+    position: absolute;
+    height: 4vh;
+    width: 1.5vw;
+    bottom: 2vh;
+    right: 1vw;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.table_lunch2{
+    width: 29vw;
+    height: 67vh;
+    background-image:url("src/assets/images/table.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 6;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #FFF9F9;
+    justify-content: center;
+    text-align: center;
+}
+.flecha_op2{
+    position: absolute;
+    height: 4vh;
+    width: 1.5vw;
+    bottom: 2vh;
+    left: 1vw;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}

@@ -100,90 +100,17 @@
     font-family:'Parisienne', cursive;
     position: absolute;
     font-weight: bold;
-    position: absolute;
 }
 #imageInit{
     margin-top: 23vh;
-    height: 50vh;
-    margin-left: 20vw;
+    height: 45vh;
+    margin-left: 22vw;
     position: absolute;
 }
 #imageName{
-    width: 26vw;
-    height: 20vh;
-    margin-top:45vh;
+    width: 22vw;
+    height: 18vh;
+    margin-top:42vh;
     position: absolute;
     margin-left: 45vw;
-}
-.contenedorPedidos{
-    width: 100vw;
-    height: 128vh;
-    margin-top: 12vh;
-    position: absolute;
-    display: flex;
-    z-index: 3;
-    font-family: 'lora';
-}
-.order{
-    width: 48.5vw;
-    height: 125vh;
-    position: absolute;
-    border: 1.5px solid #793500;
-    top: 2vh;
-    left: 0.5vw;
-    opacity: 1;
-}
-#titleOrder{
-    width: 48.5vw;
-    height: 8vh;
-    text-align: center;
-    background: url("src/assets/images/fn_red.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color:#FFF9F9;
-    padding-top: 1.5vh;
-    font-size: 1.4em;
-}
-.main{
-    width: 48.5vw;
-    height: 125vh;
-    position: absolute;
-    border: 1px solid #793500;
-    top: 2vh;
-    right: 1.5vw;
-    display: flex;
-}
-#titleMain{
-    width: 48.5vw;
-    height: 8vh;
-    text-align: center;
-    background: url("src/assets/images/fn_main.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    color:#FFF9F9;
-    padding-top: 1.5vh;
-    font-size: 1.4em;
-}
-#btn_desayuno{
-    margin-top: 9vh;
-    position: absolute;
-    width: 24vw;
-    height:8vh;
-    margin-right: 0.5vw;
-    background-color: #B88E4F;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1.3em;
-}
-#btn_almuerzo{
-    margin-top: 9vh;
-    position:absolute;
-    width: 24vw;
-    height: 8vh;
-    left: 24.4vw;
-    background-color: #B88E4F;
-    font-family: 'Lora', 'serif';
-    color:#FFF9F9 ;
-    font-size: 1.3em;
 }
