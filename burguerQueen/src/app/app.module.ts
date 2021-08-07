@@ -10,6 +10,11 @@ import { TomarPedidoComponent } from './containt-waiter/tomar-pedido/tomar-pedid
 import { ContadorComponent } from './contador/contador.component';
 import { Buguer1Component } from './productos/buguer1/buguer1.component';
 import { Burguer2Component } from './productos/burguer2/burguer2.component';
+import { Burguer3Component } from './productos/burguer3/burguer3.component';
+import { Acompanamiento1Component } from './productos/acompanamiento1/acompanamiento1.component';
+import { Acompanamiento2Component } from './productos/acompanamiento2/acompanamiento2.component';
+import { AguaComponent } from './productos/agua/agua.component';
+import { GaseosaComponent } from './productos/gaseosa/gaseosa.component';
 
 
 @NgModule({
@@ -20,7 +25,12 @@ import { Burguer2Component } from './productos/burguer2/burguer2.component';
     TomarPedidoComponent,
     ContadorComponent,
     Buguer1Component,
-    Burguer2Component
+    Burguer2Component,
+    Burguer3Component,
+    Acompanamiento1Component,
+    Acompanamiento2Component,
+    AguaComponent,
+    GaseosaComponent
   ],
   imports: [
     BrowserModule,

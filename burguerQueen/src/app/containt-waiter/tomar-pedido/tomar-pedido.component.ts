@@ -15,7 +15,11 @@ bebidas2:boolean=false
 bebidas3:boolean=false
 burguer1:boolean=false
 burguer2:boolean=false
-
+burguer3:boolean=false
+acompa1:Boolean=false
+acompa2:Boolean=false
+agua:Boolean=false
+gaseosa:Boolean=false
   constructor() { 
   }
 

@@ -74,15 +74,14 @@
                                     <p class="titleBurguer">Hamburguesas</p>
                                           <button class="burguer" (click)="burguer1=!burguer1">Hamburguesa de Res</button>
                                           <button class="burguer" (click)="burguer2=!burguer2">Hamburguesa de pollo</button>
-                                          <button class="burguer">Hamburguesa vegetariana</button>
+                                          <button class="burguer" (click)="burguer3=!burguer3">Hamburguesa vegetariana</button>
                                      <p class="titleAcompañamientos">Acompañamientos</p>
-                                          <button class="burguer">Papas fritas</button>
-                                          <button class="burguer">Aros de cebolla</button>
+                                          <button class="burguer" (click)="acompa1=!acompa1">Papas fritas</button>
+                                          <button class="burguer" (click)="acompa2=!acompa2">Aros de cebolla</button>
                                     <p class="titleAcompañamientos">Bebidas</p>
-                                         <button class="burguer">Agua 500ml</button>
-                                         <button class="burguer">Agua 750ml</button>
-                                         <button class="burguer">Gaseosa 500ml</button>
-                                         <button class="burguer">Gaseosa 750ml</button>
+                                         <button class="burguer" (click)="agua=!agua">Agua</button>
+                                         <button class="burguer" (click)="gaseosa=!gaseosa">Gaseosa</button>
+                        
                              </div>
                              
                                     <div class="campo_lunch"  *ngIf="burguer1">
@@ -91,6 +90,26 @@
 
                                     <div class="campo_lunch"  *ngIf="burguer2">
                                         <app-burguer2></app-burguer2>
+                                    </div>
+
+                                    <div class="campo_lunch"  *ngIf="burguer3">
+                                        <app-burguer3></app-burguer3>
+                                    </div>
+
+                                    <div class="campo_lunch"  *ngIf="acompa1">
+                                        <app-acompanamiento1></app-acompanamiento1>
+                                    </div>
+
+                                    <div class="campo_lunch"  *ngIf="acompa2">
+                                        <app-acompanamiento2></app-acompanamiento2>
+                                    </div>
+
+                                    <div class="campo_lunch"  *ngIf="agua">
+                                        <app-agua></app-agua>
+                                    </div>
+
+                                    <div class="campo_lunch"  *ngIf="gaseosa">
+                                        <app-gaseosa></app-gaseosa>
                                     </div>
 
                     </section>

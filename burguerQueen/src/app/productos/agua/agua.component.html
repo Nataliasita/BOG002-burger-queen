@@ -1,0 +1,23 @@
+<div class="table_lunch" *ngIf="agua1">
+    <img class="image_sand" src="assets/images/agua1.jpg" >
+        <p class="nombre_producto">Botella de Agua Mineral 500ml</p>
+        <p class="descripcion_producto">Bebida refrescante una buena opcion para acompañar tus platos favoritos.</p>
+        <p class="precio_producto_lunch">Precio $ 5</p>
+        <a (click)="agua2=!agua2"><img class="flecha" src="assets/images/flecha_bl_up.png" alt=""></a>
+ </div>
+            <form action="">
+                <p id="opcional">*Agregar tamaño botella</p>
+             <input id="simple" type="radio" name="op"><label id="simple_name" for="simple">500ml</label> 
+             <input id="doble" type="radio" name="op"><label for="doble" id="doble_name">750ml</label>
+            </form> 
+                  <app-contador></app-contador> 
+                  
+         <button class="add_product_lunch">Agregar Producto</button>
+
+         <div class="table_lunch2" *ngIf="agua2">
+            <img class="image_sand" src="assets/images/agua2.jpg" >
+                <p class="nombre_producto">Botella de Agua Mineral 750ml</p>
+                <p class="descripcion_producto">Bebida refrescante una buena opcion para acompañar tus platos favoritos.</p>
+                <p class="precio_producto_lunch">Precio $ 7</p>
+                <a (click)="agua2=!agua2"><img class="flecha_op2" src="assets/images/flecha_bl_up.png" alt=""></a>
+         </div>

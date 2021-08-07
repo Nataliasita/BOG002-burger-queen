@@ -117,8 +117,8 @@
 .flecha{
     position: absolute;
     height: 4vh;
-    width: 1.5vw;
-    bottom: 2vh;
+    width: 2vw;
+    bottom: 1.5vh;
     right: 1vw;
     transform: rotate(90deg);
     cursor: pointer;
@@ -139,8 +139,8 @@
 .flecha_op2{
     position: absolute;
     height: 4vh;
-    width: 1.5vw;
-    bottom: 2vh;
+    width: 2vw;
+    bottom: 1.5vh;
     left: 1vw;
     transform: rotate(-90deg);
     cursor: pointer;
