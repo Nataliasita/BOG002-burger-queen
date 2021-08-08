@@ -21,29 +21,30 @@
     height: 125vh;
     position: absolute;
     border: 1.5px solid #793500;
-    top: 2vh;
+    top: 1vh;
     left: 0.5vw;
     opacity: 1;
+    display: flex;
 }
 #titleOrder{
     width: 48.5vw;
-    height: 8vh;
+    height: 8.3vh;
     text-align: center;
     background: url("src/assets/images/fn_red.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color:#FFF9F9;
-    padding-top: 1.5vh;
+    padding-top: 1.7vh;
     font-size: 1.25em;
+    margin-top:-0.1vh;
 }
 .main{
     width: 48.5vw;
     height: 125vh;
     position: absolute;
     border: 1px solid #793500;
-    top: 2vh;
+    top: 1vh;
     right: 1.5vw;
-    display: flex;
 }
 #titleMain{
     width: 48.5vw;
@@ -57,184 +58,6 @@
     padding-top: 1.5vh;
     font-size: 1.25em;
 }
-#btn_desayuno{
-    margin-top: 9vh;
-    position: absolute;
-    width: 24vw;
-    height:8vh;
-    margin-right: 0.5vw;
-    background-color: #B88E4F;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1.3em;
-    cursor: pointer;
-}
-#btn_desayuno:hover{
-    background-color: #9e7a44;
-}
-
-#btn_almuerzo{
-    margin-top: 9vh;
-    position:absolute;
-    width: 24vw;
-    height: 8vh;
-    left: 24.4vw;
-    background-color: #3f1b00f3;
-    font-family: 'Lora', 'serif';
-    color:#FFF9F9 ;
-    font-size: 1.3em;
-    cursor: pointer;
-}
-#btn_almuerzo:hover{
-    background-color: #a05821;
-} 
-.products{
-    width: 48vw;
-    height: 105vh;
-    background-color: #FFF9F9;
-    background-image:url("src/assets/images/fondo-inf.png");
-    background-size: 190% 110%;
-    background-repeat: no-repeat;
-    top: 17vh;
-    position: absolute;
-    right:0;
-}
-#main_breakfast{
-    width: 17vw;
-    height: 65vh;
-    position: absolute;
-    top: 2vh;
-}
-.titleSandwichs{
-    width: 16vw;
-    font-family: 'Lora', 'serif'; 
-    color: #3F1B00;
-    border-bottom: 1.8px solid #3F1B00;
-    font-weight: bold;
-    padding: 1vh 0 0.5vh 0.8vw ;
-}
-#producto1{
-    margin-top:1vh;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1em;
-    width: 15vw;
-    font-weight: medium;
-    padding: 1.5vh 1vw 1.5vh 1vw;
-    border: 1px solid #3f1b00e1;
-    background-color: #B88E4F ;
-    cursor: pointer;
-}
-#producto1:hover{
-    background-color: #94723f;
-    color: #FFF9F9;
-}
-#producto1:focus-within{
-    background-color: #94723f;
-    color: #FFF9F9;
-}
-#extras{
-    margin-top:1vh;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1em;
-    width: 15vw;
-    font-weight: medium;
-    padding: 2vh 1vw 2vh 1vw;
-    border: 1px solid #3f1b00e1;
-    background-color: #B88E4F;
-    cursor: pointer;
-}
-#extras:hover{
-    background-color: #94723f;;
-    color: #FFF9F9;
-}
-#extras:focus-within{
-    background-color: #94723f;
-    color: #FFF9F9;
-}
-.titleBebidas{
-    width: 16vw;
-    font-family: 'Lora', 'serif'; 
-    color: #3F1B00;
-    border-bottom: 1.8px solid #3F1B00;
-    font-weight: bold;
-    padding: 1vh 0 0.5vh 0.8vw;
-}
-.productBebidas{
-    margin-top:1.2vh;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1em;
-    width: 15vw;
-    font-weight: medium;
-    padding: 2vh 1vw 2vh 1vw;
-    border: 1px solid #3f1b00e1;
-    background-color: #B88E4F ;
-    cursor: pointer;
-}
-.productBebidas:hover{
-    background-color: #94723f;
-    color: #FFF9F9;
-}
-.productBebidas:focus-within{
-    background-color: #94723f;
-    color: #FFF9F9;
-}
-.productsLunch{
-    width: 48vw;
-    height: 106vh;
-    top: 17vh;
-    position: absolute;
-    right:0;
-    background-color: #FFF9F9;
-    background-image:url("src/assets/images/fondo-inf.png");
-    background-size: 190% 110%;
-    background-repeat: no-repeat;
-}
-#main_lunch{
-    width: 17vw;
-    height: 105vh;
-    position: absolute;
-    top: 2vh;
-    color: #3F1B00;
-}
-.titleBurguer{
-    width: 16vw;
-    font-family: 'Lora', 'serif'; 
-    color: #3F1B00;
-    border-bottom: 1.8px solid #3F1B00;
-    font-weight: bold;
-    padding: 1vh 0 0.5vh 0.8vw ;
-}
-.burguer{
-    margin-top:1.2vh;
-    font-family: 'Lora', 'serif';
-    color: #FFF9F9;
-    font-size: 1em;
-    width: 15vw;
-    font-weight: medium;
-    padding: 2vh 1vw 2vh 1vw;
-    border: 1px solid #3f1b00e1;
-    background-color: #3f1b00f3;
-    cursor: pointer;
-}
-.burguer:hover{
-    background-color: #a05821;
-    color: #FFF9F9;
-}
-.burguer:focus-within{
-    background-color: #a05821;
-    color: #FFF9F9;
-}
-.titleAcompañamientos{
-    width: 16vw;
-    font-family: 'Lora', 'serif'; 
-    color: #3F1B00;
-    border-bottom: 1.8px solid #3F1B00;
-    font-weight: bold;
-    padding: 2.5vh 0 0.5vh 0.8vw ;
-}
 #textMain{
     margin-top: 25vh;
     margin-left:17vw;
@@ -243,12 +66,14 @@
     font-family:'Parisienne', cursive;
     position: absolute;
     font-weight: bold;
+    z-index: 3;
 }
 #imageMain{
     margin-top: 31vh;
     height: 27vh;
     margin-left: 18vw;
     position: absolute;
+    z-index: 3;
 }
 #nameMain{
     width: 18vw;
@@ -256,87 +81,119 @@
     margin-top:62vh;
     position: absolute;
     margin-left: 17.5vw;
+    z-index: 3;
 }
-.desayuno1{
-    width: 29vw;
-    height: 85vh;
+#name1{
     position: absolute;
-    right: 1vw;
-    top: 2vh;
-    z-index: 4;
-    justify-content: center;
-    font-family: 'Lora', 'serif'; 
+    left: 1vw;
+    top: 10.5vh;
+    text-align: center;
     color: #3F1B00;
+    font-weight: bold;
+    font-size: 1.1em;
 }
-.table{
-    width: 29vw;
-    height: 56.5vh;
-    background-image:url("src/assets/images/table.png");
+#name_user{
+    position: absolute;
+    left: 13vw;
+    width: 28vw;
+    height: 4vh;
+    top: 10.5vh;
+    border: #793500 1.5px solid;
+    box-shadow: 2px 2px 5px rgb(133, 133, 133);
+    border-radius: 20px;
+    background-color: #d1a07a33;
+    font-family: 'lora';
+    outline: none;
+}
+#num1{
+    position: absolute;
+    left: 9vw;
+    top: 17.5vh;
+    color: #3F1B00;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#num_mesa{
+    position: absolute;
+    left: 13vw;
+    height: 4vh;
+    top: 17.5vh;
+    border: #793500 1.5px solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(133, 133, 133);
+    background-color: #d1a07a33;
+    font-family: 'lora';
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+#datos_cliente{
+    position: absolute;
+    height: 6vh;
+    width: 13vw;
+    right: 7.2vw;
+    top: 16.5vh;
+    border-radius: 30px;
+    background-color: #b36225;
+    color: #FFF9F9;
+    border:none;
+    cursor: pointer;
+    font-family: 'lora';
+    box-shadow: 2px 2px 5px rgb(99, 99, 99);
+}
+#datos_cliente:hover{
+    background-color: #d3742c;
+    right: 6.8vw;
+}
+.total_order{
+    position: absolute;
+    width: 48.4vw;
+    height: 22vh;
+    background: url("src/assets/images/fn_red.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    z-index: 5;
-    position: absolute;
-    border-radius: 15px;
-    background-color: #FFF9F9;
-}
-.image_sand{
-    border-radius: 15px;
-    position: absolute;
-    height:33vh;
-    width: 27vw;
-    left: 1vw;
-    top: 2vh;
-}
-.nombre_producto{
-    top:36vh;
-    width: 29vw;
-    position: absolute;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
-}
-.descripcion_producto{
-    top:41vh;
-    height: 7.2vh;
-    width: 25vw;
-    margin:0 1vw 0 2vw;
-    position: absolute;
-    font-size: 1em;
-    font-weight: bolder;
-    text-align: center;
-    background-color: #fef4eda1 ;
-}
-.precio_producto{
-    top:50vh;
-    width: 29vw;
-    position: absolute;
-    font-size: 1.4em;
-    font-weight:bold;
-    text-align: center;
-}
-.add_product{
-    position: absolute;
-    bottom: 11vh;
-    left: 4.5vw;
-    height:8vh;
-    width: 20vw;
-    background: #B88E4F;
-    border: none;
-    font-family: 'Lora', 'serif'; 
-    color: #FFF9F9;
-    border-radius: 5px;
-    font-size: 1.2em;
-    box-shadow: 2px 2px 5px rgb(133, 133, 133);
-    cursor: pointer;
-}
-.campo_lunch{
-    width: 29vw;
-    height:105vh;
-    position: absolute;
-    right: 1vw;
-    top: 2vh;
-    z-index: 4;
+    bottom: -0.5vh;
     justify-content: center;
-    font-family: 'Lora', 'serif'; 
-    color: #3F1B00;
+}
+#name_value_total{
+    position: absolute;
+    font-family: 'lora';
+    color: #FFF9F9;
+    font-size: 1.7em;
+    font-weight: bold;
+    left: 15vw;
+    top: 4vh;
+}
+#temporal_total{
+    position: absolute;
+    font-family: 'lora';
+    color: #FFF9F9;
+    font-size: 1.7em;
+    font-weight: bold;
+    left: 28vw;
+    top: 4vh;
+}
+#btn_envio_cocina{
+    margin-top: 12vh;
+    position: absolute;
+    width: 24vw;
+    height:8vh;
+    margin-right: 0.5vw;
+    background-color: #b36225;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1.3em;
+    cursor: pointer;
+    left: 12vw;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(68, 68, 68);
+}
+#btn_envio_cocina:hover{
+    background-color: #d3742c;
+    margin-top: 11.3vh;
 }

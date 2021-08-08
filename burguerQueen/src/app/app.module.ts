@@ -15,6 +15,8 @@ import { Acompanamiento1Component } from './productos/acompanamiento1/acompanami
 import { Acompanamiento2Component } from './productos/acompanamiento2/acompanamiento2.component';
 import { AguaComponent } from './productos/agua/agua.component';
 import { GaseosaComponent } from './productos/gaseosa/gaseosa.component';
+import { ViewMainComponent } from './views/view-main/view-main.component';
+import { OrderViewComponent } from './views/order-view/order-view.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { GaseosaComponent } from './productos/gaseosa/gaseosa.component';
     Acompanamiento1Component,
     Acompanamiento2Component,
     AguaComponent,
-    GaseosaComponent
+    GaseosaComponent,
+    ViewMainComponent,
+    OrderViewComponent
   ],
   imports: [
     BrowserModule,

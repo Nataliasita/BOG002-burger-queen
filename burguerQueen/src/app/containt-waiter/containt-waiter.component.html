@@ -5,7 +5,7 @@
           <li><a href="" id="pedidos">Mis pedidos<img id="start" src="assets/images/start.png"></a></li>
           <li><a href="" id="opcion_agregar">Agregar productos adicionales a cuenta<img id="agregar" src="assets/images/agregar-btn.png"></a></li>
       </ul>
-      <a [routerLink]= "['/home']"><img id="perfil"></a>
+      <a  (click)="cambiar_perfil=!cambiar_perfil"><img id="perfil"></a>
 </header>
 
 <section class="contenedor" >
@@ -17,3 +17,13 @@
     <img src="assets/images/init.png" id="imageInit" >
     <img src="assets/images/initName.png" id="imageName">
 </ng-template>
+
+        <section class="cambio_perfil" *ngIf="cambiar_perfil">
+               <div id="cambio">
+                   <a (click)="cambiar_perfil=!cambiar_perfil"><img id="cerrar" src="assets/images/cerrar.png" ></a>
+                    <p id="title_close" >¿Confirma que desea cambiar de perfil?</p>
+                    <br>
+                    <button id="btn_envio_home" [routerLink]= "['/home']" >Si</button>
+                    <button id="btn_close" (click)="cambiar_perfil=!cambiar_perfil" >No</button>  
+               </div>
+        </section>

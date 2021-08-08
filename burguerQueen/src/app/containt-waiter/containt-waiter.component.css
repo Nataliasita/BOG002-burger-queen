@@ -64,6 +64,7 @@
     right: 2vw;
     border-radius: 1020px;
     top: 2.3vh;
+    cursor: pointer;
 }
 #btn_tomarOrden{
     border: none;
@@ -113,4 +114,71 @@
     margin-top:42vh;
     position: absolute;
     margin-left: 45vw;
+}
+.cambio_perfil{
+    width: 100vw;
+    height: 140vh;
+    z-index: 8;
+    background: rgba(63, 63, 63, 0.527);
+    position: absolute;
+    justify-content: center;
+}
+#cambio{
+    width: 30vw;
+    height: 30vh;
+    left: 35vw;
+    margin-top: 37vh;
+    position: absolute;
+    text-decoration: none;
+    background-color: #FEF4ED ;
+    text-align: center;
+    color: #793500;
+    top:0;
+    font-family: 'lora';
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+#title_close{
+    top:8vh;
+    position: absolute;
+    left: 2.5vw;
+}
+#btn_envio_home{
+    background-color: #793500;
+    color: #FFF9F9;
+    height: 8vh;
+    width: 11.5vw;
+    position: absolute;
+    left: 2.5vw;
+    bottom: 4vh;
+    font-family: 'lora';
+    font-size: 0.9em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+}
+
+#btn_close{
+    background-color: #793500;
+    color: #FFF9F9;
+    height: 8vh;
+    width: 11.5vw;
+    position: absolute;
+    font-size: 0.9em;
+    right: 2.5vw;
+    bottom: 4vh;
+    font-family: 'lora';
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+}
+#cerrar{
+    height: 3vh;
+    position: absolute;
+    cursor: pointer;
+    position: absolute;
+    top:2vh;
+    right: 1vw;
 }

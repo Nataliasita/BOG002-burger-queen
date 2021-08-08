@@ -1,0 +1,275 @@
+#btn_desayuno{
+    margin-top: 1.5vh;
+    position: absolute;
+    width: 24vw;
+    height:8vh;
+    margin-right: 0.5vw;
+    background-color: #B88E4F;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1.3em;
+    cursor: pointer;
+    z-index: 5;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(68, 68, 68);
+}
+#btn_desayuno:hover{
+    background-color: #9e7a44;
+    margin-top: 0.8vh;
+}
+
+#btn_almuerzo{
+    margin-top: 1.5vh;
+    position:absolute;
+    width: 24vw;
+    height: 8vh;
+    left: 24.4vw;
+    background-color: #3f1b00f3;
+    font-family: 'Lora', 'serif';
+    color:#FFF9F9 ;
+    font-size: 1.3em;
+    cursor: pointer;
+    z-index: 5;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(68, 68, 68);
+}
+#btn_almuerzo:hover{
+    background-color: #a05821;
+    margin-top: 0.8vh;
+} 
+.products{
+    width: 48vw;
+    height: 105vh;
+    background-color: #FFF9F9;
+    background-image:url("src/assets/images/fondo-inf.png");
+    background-size: 190% 110%;
+    background-repeat: no-repeat;
+    top: 17vh;
+    position: absolute;
+    right:0;
+    z-index: 4;
+}
+#main_breakfast{
+    width: 17vw;
+    height: 65vh;
+    position: absolute;
+    top: 2vh;
+}
+.titleSandwichs{
+    width: 16vw;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+    border-bottom: 1.8px solid #3F1B00;
+    font-weight: bold;
+    padding: 1vh 0 0.5vh 0.8vw ;
+}
+#producto1{
+    margin-top:1vh;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1em;
+    width: 15vw;
+    font-weight: medium;
+    padding: 1.5vh 1vw 1.5vh 1vw;
+    border: 1px solid #3f1b00e1;
+    background-color: #B88E4F ;
+    cursor: pointer;
+}
+#producto1:hover{
+    background-color: #94723f;
+    margin-left: 0.4vw;
+}
+#producto1:focus-within{
+    background-color: #94723f;
+    color: #FFF9F9;
+}
+#extras{
+    margin-top:1vh;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1em;
+    width: 15vw;
+    font-weight: medium;
+    padding: 2vh 1vw 2vh 1vw;
+    border: 1px solid #3f1b00e1;
+    background-color: #B88E4F;
+    cursor: pointer;
+}
+#extras:hover{
+    background-color: #94723f;;
+    margin-left: 0.4vw;
+}
+#extras:focus-within{
+    background-color: #94723f;
+    color: #FFF9F9;
+}
+.titleBebidas{
+    width: 16vw;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+    border-bottom: 1.8px solid #3F1B00;
+    font-weight: bold;
+    padding: 1vh 0 0.5vh 0.8vw;
+}
+.productBebidas{
+    margin-top:1.2vh;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1em;
+    width: 15vw;
+    font-weight: medium;
+    padding: 2vh 1vw 2vh 1vw;
+    border: 1px solid #3f1b00e1;
+    background-color: #B88E4F ;
+    cursor: pointer;
+}
+.productBebidas:hover{
+    background-color: #94723f;
+    margin-left: 0.4vw;
+}
+.productBebidas:focus-within{
+    background-color: #94723f;
+    color: #FFF9F9;
+}
+.productsLunch{
+    width: 48vw;
+    height: 106vh;
+    top: 17vh;
+    position: absolute;
+    right:0;
+    background-color: #FFF9F9;
+    background-image:url("src/assets/images/fondo-inf.png");
+    background-size: 190% 110%;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+#main_lunch{
+    width: 17vw;
+    height: 105vh;
+    position: absolute;
+    top: 2vh;
+    color: #3F1B00;
+}
+.titleBurguer{
+    width: 16vw;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+    border-bottom: 1.8px solid #3F1B00;
+    font-weight: bold;
+    padding: 1vh 0 0.5vh 0.8vw ;
+}
+.burguer{
+    margin-top:1.2vh;
+    font-family: 'Lora', 'serif';
+    color: #FFF9F9;
+    font-size: 1em;
+    width: 15vw;
+    font-weight: medium;
+    padding: 2vh 1vw 2vh 1vw;
+    border: 1px solid #3f1b00e1;
+    background-color: #3f1b00f3;
+    cursor: pointer;
+}
+.burguer:hover{
+    background-color: #a05821;
+    margin-left: 0.4vw;
+}
+.burguer:focus-within{
+    background-color: #a05821;
+    color: #FFF9F9;
+}
+.titleAcompañamientos{
+    width: 16vw;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+    border-bottom: 1.8px solid #3F1B00;
+    font-weight: bold;
+    padding: 2.5vh 0 0.5vh 0.8vw ;
+}
+.desayuno1{
+    width: 29vw;
+    height: 85vh;
+    position: absolute;
+    right: 1vw;
+    top: 2vh;
+    z-index: 4;
+    justify-content: center;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+}
+.table{
+    width: 29vw;
+    height: 56.5vh;
+    background-image:url("src/assets/images/table.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 5;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #FFF9F9;
+}
+.image_sand{
+    border-radius: 15px;
+    position: absolute;
+    height:33vh;
+    width: 27vw;
+    left: 1vw;
+    top: 2vh;
+}
+.nombre_producto{
+    top:36vh;
+    width: 29vw;
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+.descripcion_producto{
+    top:41vh;
+    height: 7.2vh;
+    width: 25vw;
+    margin:0 1vw 0 2vw;
+    position: absolute;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #fef4eda1 ;
+}
+.precio_producto{
+    top:50vh;
+    width: 29vw;
+    position: absolute;
+    font-size: 1.4em;
+    font-weight:bold;
+    text-align: center;
+}
+.add_product{
+    position: absolute;
+    bottom: 11vh;
+    left: 4.5vw;
+    height:8vh;
+    width: 20vw;
+    background: #B88E4F;
+    border: none;
+    font-family: 'Lora', 'serif'; 
+    color: #FFF9F9;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgb(133, 133, 133);
+    cursor: pointer;
+}
+.add_product:hover{
+    bottom: 11.8vh;
+    background-color: #9e7a44;
+}
+.campo_lunch{
+    width: 29vw;
+    height:105vh;
+    position: absolute;
+    right: 1vw;
+    top: 2vh;
+    z-index: 4;
+    justify-content: center;
+    font-family: 'Lora', 'serif'; 
+    color: #3F1B00;
+}

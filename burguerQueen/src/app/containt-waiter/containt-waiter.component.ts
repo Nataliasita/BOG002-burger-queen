@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContaintWaiterComponent implements OnInit {
 desayuno:boolean=true
+cambiar_perfil:Boolean=false
   constructor() { 
   }
 
