@@ -1,0 +1,31 @@
+.info_item{
+    display: flex;
+    height: 10vh;
+    width: 48vw;
+    margin: 1vh 0 0 0;
+    align-items: center;
+}
+#name_product{
+    width: 16.5vw;
+    height: 4vh;
+    padding-left: 0.5vw;
+}
+#valor_un_item{
+    width: 5vw;
+    margin-left: 3.5vw;
+}
+#valor_subtotal{
+    width: 5vw;
+    margin-left: 3.1vw;
+    margin-right: 1.8vw;
+}
+#eliminar_item{
+    height: 5vh;
+    cursor: pointer;
+}
+#eliminar_item:hover{
+    height: 5vh;
+    background-image: url("src/assets/images/caneca3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

@@ -2,45 +2,42 @@
     font-family: 'Lora', 'serif'; 
     color: #3F1B00;
     background-color: #FFF9F9;
-    height: 6vh;
-    width: 11.5vw;
-    position: absolute;
-    bottom: 21vh;
-    left: 8.5vw;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: 1vw;
     display: flex;
     border-radius: 20px;
     border: 1px solid #3F1B00; 
-    justify-content: center;
+    padding-left: 0.3vw;
 }
 #itemS{
-    width:3.5vw;
+    width:2.4vw;
     text-align: center;
     align-self: center;
     background-color: #FFF9F9;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
-    margin-top:0.7vh;
+    margin-top:0.6vh;
     border:none;
     cursor: pointer;
 }
 #itemC{
-    width:3.6vw;
+    width:2.4vw;
     text-align: center;
     align-self: center;
     background-color: #FFF9F9;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     border-left: 1px solid #3F1B00;
     border-right: 1px solid #3F1B00;
 }
 #itemR{
-    width:3.6vw;
+    width:2.4vw;
     border:none;
     text-align: center;
     align-self: center;
-    margin-top:0.1vh;
     background-color: #FFF9F9;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     border:none;
     cursor: pointer;

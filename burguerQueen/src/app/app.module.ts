@@ -17,6 +17,8 @@ import { AguaComponent } from './productos/agua/agua.component';
 import { GaseosaComponent } from './productos/gaseosa/gaseosa.component';
 import { ViewMainComponent } from './views/view-main/view-main.component';
 import { OrderViewComponent } from './views/order-view/order-view.component';
+import { ItemContadorComponent } from './item/item-contador/item-contador.component';
+import { ItemOrderComponent } from './item/item-order/item-order.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { OrderViewComponent } from './views/order-view/order-view.component';
     AguaComponent,
     GaseosaComponent,
     ViewMainComponent,
-    OrderViewComponent
+    OrderViewComponent,
+    ItemContadorComponent,
+    ItemOrderComponent
   ],
   imports: [
     BrowserModule,

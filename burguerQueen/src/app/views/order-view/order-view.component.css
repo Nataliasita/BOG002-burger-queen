@@ -64,10 +64,12 @@
     font-weight: bolder;
 }
 #items_order{
+    display: grid;
     width: 48.5vw;
-    margin-top: 13vh;
+    margin-top: 16vh;
     padding-bottom: 17vh;
     margin-left: 0.3vw;
+    align-self: start;
 }
 .prueba{
     display: grid;
