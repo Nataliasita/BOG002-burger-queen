@@ -5,13 +5,14 @@
 export const environment = {
   production: false,
   
-  firebaseConfig : {
-    apiKey: "AIzaSyCscGYNZOj_-C4HEftXqt2FZTDNd_peomM",
-    authDomain: "burguer-queen-b40a5.firebaseapp.com",
-    projectId: "burguer-queen-b40a5",
-    storageBucket: "burguer-queen-b40a5.appspot.com",
-    messagingSenderId: "462648711759",
-    appId: "1:462648711759:web:36e8ea573ade2da884a83a"
+  firebaseConfig: {
+    apiKey: "AIzaSyDe5GWiFQ_VUsZGH2ao1Jfhfg6jl7Y8exU",
+    authDomain: "bqueen-f41cd.firebaseapp.com",
+    projectId: "bqueen-f41cd",
+    storageBucket: "bqueen-f41cd.appspot.com",
+    messagingSenderId: "962153556196",
+    appId: "1:962153556196:web:db1dabb47e1c0213ea64f1",
+    measurementId: "G-0H8EX9M8LS"
   }
 };
 /*
