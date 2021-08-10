@@ -14,6 +14,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2vh;
     grid-row: auto;
+    background-color: blue;
 }
 .resume_order::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -46,21 +47,39 @@
     left: 17vw;
     
 }
+#data_cliente{
+    display: flex;
+    position: absolute;
+    height: 4vh;
+    width: 45vw;
+    background-color: crimson;
+    justify-content: center;
+    top: 8vh;
+}
+#nombre_registrado{
+    position: absolute;
+    left: 4vw;
+}
+#mesa_registrada{
+    position: absolute;
+    right: 10vw;
+}
 .atributte{
     margin-top: 10.5vh;
     width: 48.3vw;
     display: flex;
     font-size: 1.1em;
-    top:1vh;
+    top:3vh;
     position: absolute;
+    background-color: chartreuse;
 }
 #item{
-    padding: 0 1.5vw 0 1.5vw;
+    padding: 0 1.2vw 0 1.3vw;
     font-weight: bolder;
     text-align: center;
 }
 #item1{
-    padding: 0 10.5vw 0 1.5vw;
+    padding: 0 11vw 0 1.5vw;
     font-weight: bolder;
 }
 #items_order{
@@ -70,6 +89,7 @@
     padding-bottom: 17vh;
     margin-left: 0.3vw;
     align-self: start;
+    background-color: chocolate;
 }
 .prueba{
     display: grid;

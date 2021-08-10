@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { environment } from "src/environments/environment";
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,8 @@ import { OrderViewComponent } from './views/order-view/order-view.component';
 import { ItemContadorComponent } from './item/item-contador/item-contador.component';
 import { ItemOrderComponent } from './item/item-order/item-order.component';
 
+//servicios
+import { ConexionService } from './services/conexion.service'
 
 @NgModule({
   declarations: [
@@ -48,9 +51,10 @@ import { ItemOrderComponent } from './item/item-order/item-order.component';
     AppRoutingModule,
     CommonModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ConexionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

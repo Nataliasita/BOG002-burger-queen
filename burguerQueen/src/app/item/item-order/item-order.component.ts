@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConexionService } from 'src/app/services/conexion.service';
 
 @Component({
   selector: 'app-item-order',
@@ -7,7 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemOrderComponent implements OnInit {
   producto_main:Boolean=true
-  constructor() { }
+
+  items:any;
+
+  constructor(private conexion: ConexionService) { 
+    this.conexion.listaitem().subscribe(item => {
+      this.items = item;
+      console.log(this.items)
+    })
+
+  }
 
   ngOnInit(): void {
   }
