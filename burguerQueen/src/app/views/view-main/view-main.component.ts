@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConexionService } from 'src/app/services/conexion.service';
 
 @Component({
   selector: 'app-view-main',
@@ -20,7 +21,8 @@ export class ViewMainComponent implements OnInit {
   agua:Boolean=false
   gaseosa:Boolean=false
   
-  constructor() { }
+
+  constructor(private servicio:ConexionService) { }
 
   ngOnInit(): void {
   }

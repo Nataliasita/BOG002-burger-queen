@@ -1,7 +1,8 @@
 <div class="info_item" *ngFor=" let item of items">
-    <p id="name_product"> {{item.name}}</p>
+    <p id="name_product"> {{item.producto}}</p>
+    <p id="identificacion">{{item.id}}</p>
         <app-item-contador></app-item-contador>
-    <p id="valor_un_item">$vr un</p>
+    <p id="valor_un_item">$ {{item.valor}}</p>
     <p id="valor_subtotal">$subitem</p>
     <a><img id="eliminar_item"src="assets/images/caneca.png" ></a>
 </div>

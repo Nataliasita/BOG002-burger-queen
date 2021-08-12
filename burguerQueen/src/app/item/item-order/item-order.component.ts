@@ -21,5 +21,7 @@ export class ItemOrderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+//  eliminar_item(item: any){
+//    this.conexion.eliminar(item)
+//  }
 }

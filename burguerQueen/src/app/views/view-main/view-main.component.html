@@ -3,102 +3,111 @@
 
 
 <section class="products" *ngIf="desayuno">
-   <div id="main_breakfast">
-       <p class="titleSandwichs">Sandwichs</p>
-          <button id="producto1" (click)="desayuno1=!desayuno1">Sandwichs de jamon y queso</button>
-       <p class="titleSandwichs">Extras</p>
-            <button id="extras">Extras</button>
-       <p class="titleBebidas">Bebidas</p>
-          <button class="productBebidas" (click)="bebidas1=!bebidas1">Cafe americano</button>
-          <button class="productBebidas" (click)="bebidas2=!bebidas2">Cafe con leche</button>
-          <button class="productBebidas" (click)="bebidas3=!bebidas3">Jugo de frutas natural</button>
-   </div> 
-   <div class="desayuno1"  *ngIf="desayuno1">
-            <div class="table">
-               <img class="image_sand" src="assets/images/sand.png" >
-                   <p class="nombre_producto">Sandwich de jamon y queso</p>
-                   <p class="descripcion_producto">Jamonada, jamon de cerdo con cordero, queso mozzarella, lechuga y salsa de la casa.</p>
-                   <p class="precio_producto">Precio $ 10</p>
-            </div>
-                <app-contador></app-contador>
-                <button class="add_product">Agregar Producto</button>
-   </div>
-   <div class="desayuno1"  *ngIf="bebidas1">
-       <div class="table">
-          <img class="image_sand" src="assets/images/Cafe.jpg" >
-              <p class="nombre_producto">Cafe americano</p>
-              <p class="descripcion_producto">Café elaborado a base de espresso y agua caliente.</p>
-              <p class="precio_producto">Precio $ 5</p>
-       </div>
-           <app-contador></app-contador>
-           <button class="add_product">Agregar Producto</button>
-   </div>
-   <div class="desayuno1"  *ngIf="bebidas2">
-       <div class="table">
-          <img class="image_sand" src="assets/images/cafeconleche.jpg" >
-              <p class="nombre_producto">Cafe con leche</p>
-              <p class="descripcion_producto">Café Espresso con leche vaporizada de textura cremosa, preparado con café origen.</p>
-              <p class="precio_producto">Precio $ 7</p>
-       </div>
-           <app-contador></app-contador>
-           <button class="add_product">Agregar Producto</button>
-   </div>
-   <div class="desayuno1"  *ngIf="bebidas3">
-       <div class="table">
-          <img class="image_sand" src="assets/images/jugo.jpg" >
-              <p class="nombre_producto">Jugo de frutas natural</p>
-              <p class="descripcion_producto">Es una deliciosa combinación de frutas a base de leche o agua, con vitamina C, D y calcio.</p>
-              <p class="precio_producto">Precio $ 7</p>
-       </div>
-           <app-contador></app-contador>
-           <button class="add_product">Agregar Producto</button>
-   </div>
+    <div id="main_breakfast">
+        <p class="titleSandwichs">Sandwichs</p>
+        <button id="producto1" (click)="desayuno1=!desayuno1">Sandwichs de jamon y queso</button>
+        <p class="titleSandwichs">Extras</p>
+        <button id="extras">Extras</button>
+        <p class="titleBebidas">Bebidas</p>
+        <button class="productBebidas" (click)="bebidas1=!bebidas1">Cafe americano</button>
+        <button class="productBebidas" (click)="bebidas2=!bebidas2">Cafe con leche</button>
+        <button class="productBebidas" (click)="bebidas3=!bebidas3">Jugo de frutas natural</button>
+    </div>
+
+
+    <div class="desayuno1" *ngIf="desayuno1">
+
+        <app-card-preview [image]="'assets/images/sand.png'"
+        [title]="'Sandwich de jamon y queso'"
+        [description]="'Jamonada, jamon de cerdo con cordero, queso mozzarella, lechuga y salsa de
+        la casa.'"
+        [price]= "10"
+        >
+        </app-card-preview>
+
+    </div>
+
+
+    <div class="desayuno1" *ngIf="bebidas1">
+   
+        <app-card-preview [image]="'assets/images/Cafe.jpg'"
+        [title]="'Cafe americano'"
+        [description]="'Café elaborado a base de espresso y agua caliente.'"
+        [price]= "5"
+        >
+        </app-card-preview>
+
+    </div>
+
+
+    <div class="desayuno1" *ngIf="bebidas2">
+
+        <app-card-preview [image]="'assets/images/cafeconleche.jpg'"
+        [title]="'Cafe con leche'"
+        [description]="'Café Espresso con leche vaporizada de textura cremosa, preparado con café
+        origen.'"
+        [price]= "7"
+        >
+        </app-card-preview>
+
+    </div>
+
+
+    <div class="desayuno1" *ngIf="bebidas3">
+      
+        <app-card-preview [image]="'assets/images/jugo.jpg'"
+        [title]="'Jugo de frutas natural'"
+        [description]="'Es una deliciosa combinación de frutas a base de leche o agua, con vitamina
+        C, D y calcio.'"
+        [price]= "7"
+        >
+        </app-card-preview>
+    </div>
 
 </section>
 
 <section class="productsLunch" *ngIf="lunch">
-       <div id="main_lunch">
-               <p class="titleBurguer">Hamburguesas</p>
-                     <button class="burguer" (click)="burguer1=!burguer1">Hamburguesa de Res</button>
-                     <button class="burguer" (click)="burguer2=!burguer2">Hamburguesa de pollo</button>
-                     <button class="burguer" (click)="burguer3=!burguer3">Hamburguesa vegetariana</button>
-                <p class="titleAcompañamientos">Acompañamientos</p>
-                     <button class="burguer" (click)="acompa1=!acompa1">Papas fritas</button>
-                     <button class="burguer" (click)="acompa2=!acompa2">Aros de cebolla</button>
-               <p class="titleAcompañamientos">Bebidas</p>
-                    <button class="burguer" (click)="agua=!agua">Agua</button>
-                    <button class="burguer" (click)="gaseosa=!gaseosa">Gaseosa</button>
-   
-        </div>
-        
-               <div class="campo_lunch"  *ngIf="burguer1">
-                   <app-buguer1></app-buguer1>
-               </div>
+    <div id="main_lunch">
+        <p class="titleBurguer">Hamburguesas</p>
+        <button class="burguer" (click)="burguer1=!burguer1">Hamburguesa de Res</button>
+        <button class="burguer" (click)="burguer2=!burguer2">Hamburguesa de pollo</button>
+        <button class="burguer" (click)="burguer3=!burguer3">Hamburguesa vegetariana</button>
+        <p class="titleAcompañamientos">Acompañamientos</p>
+        <button class="burguer" (click)="acompa1=!acompa1">Papas fritas</button>
+        <button class="burguer" (click)="acompa2=!acompa2">Aros de cebolla</button>
+        <p class="titleAcompañamientos">Bebidas</p>
+        <button class="burguer" (click)="agua=!agua">Agua</button>
+        <button class="burguer" (click)="gaseosa=!gaseosa">Gaseosa</button>
 
-               <div class="campo_lunch"  *ngIf="burguer2">
-                   <app-burguer2></app-burguer2>
-               </div>
+    </div>
 
-               <div class="campo_lunch"  *ngIf="burguer3">
-                   <app-burguer3></app-burguer3>
-               </div>
+    <div class="campo_lunch" *ngIf="burguer1">
+        <app-buguer1>
+        </app-buguer1>
+    </div>
 
-               <div class="campo_lunch"  *ngIf="acompa1">
-                   <app-acompanamiento1></app-acompanamiento1>
-               </div>
+    <div class="campo_lunch" *ngIf="burguer2">
+        <app-burguer2></app-burguer2>
+    </div>
 
-               <div class="campo_lunch"  *ngIf="acompa2">
-                   <app-acompanamiento2></app-acompanamiento2>
-               </div>
+    <div class="campo_lunch" *ngIf="burguer3">
+        <app-burguer3></app-burguer3>
+    </div>
 
-               <div class="campo_lunch"  *ngIf="agua">
-                   <app-agua></app-agua>
-               </div>
+    <div class="campo_lunch" *ngIf="acompa1">
+        <app-acompanamiento1></app-acompanamiento1>
+    </div>
 
-               <div class="campo_lunch"  *ngIf="gaseosa">
-                   <app-gaseosa></app-gaseosa>
-               </div>
+    <div class="campo_lunch" *ngIf="acompa2">
+        <app-acompanamiento2></app-acompanamiento2>
+    </div>
+
+    <div class="campo_lunch" *ngIf="agua">
+        <app-agua></app-agua>
+    </div>
+
+    <div class="campo_lunch" *ngIf="gaseosa">
+        <app-gaseosa></app-gaseosa>
+    </div>
 
 </section>
-
-

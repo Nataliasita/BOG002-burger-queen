@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConexionService } from 'src/app/services/conexion.service';
 
 @Component({
   selector: 'app-buguer1',
@@ -8,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 export class Buguer1Component implements OnInit {
   burguerOp1:Boolean = true
   burguerOp2:Boolean = true
-  constructor() { }
+
+  item:any ={
+    producto:"Hamburguesa de Res Doble carne Queen 182",
+    valor:"10"
+  }
+
+  constructor(private servicio:ConexionService) { }
 
   ngOnInit(): void {
   }
-
+  agregarBurguer(){
+    this.servicio.addItem(this.item)
+    this.item = '';
+  }
 }

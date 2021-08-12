@@ -4,7 +4,7 @@
     width: 24vw;
     height:8vh;
     margin-right: 0.5vw;
-    background-color: #B88E4F;
+    background-color: #216900;
     font-family: 'Lora', 'serif';
     color: #FFF9F9;
     font-size: 1.3em;
@@ -14,7 +14,7 @@
     box-shadow: 2px 2px 5px rgb(68, 68, 68);
 }
 #btn_desayuno:hover{
-    background-color: #9e7a44;
+    background-color: #2f9201;
     margin-top: 0.8vh;
 }
 
@@ -72,15 +72,15 @@
     font-weight: medium;
     padding: 1.5vh 1vw 1.5vh 1vw;
     border: 1px solid #3f1b00e1;
-    background-color: #B88E4F ;
+    background-color: #216900;
     cursor: pointer;
 }
 #producto1:hover{
-    background-color: #94723f;
+    background-color: #2f9201;
     margin-left: 0.4vw;
 }
 #producto1:focus-within{
-    background-color: #94723f;
+    background-color: #2f9201;
     color: #FFF9F9;
 }
 #extras{
@@ -92,15 +92,15 @@
     font-weight: medium;
     padding: 2vh 1vw 2vh 1vw;
     border: 1px solid #3f1b00e1;
-    background-color: #B88E4F;
+    background-color: #216900;
     cursor: pointer;
 }
 #extras:hover{
-    background-color: #94723f;;
+    background-color: #2f9201;
     margin-left: 0.4vw;
 }
 #extras:focus-within{
-    background-color: #94723f;
+    background-color: #2f9201;
     color: #FFF9F9;
 }
 .titleBebidas{
@@ -120,15 +120,15 @@
     font-weight: medium;
     padding: 2vh 1vw 2vh 1vw;
     border: 1px solid #3f1b00e1;
-    background-color: #B88E4F ;
+    background-color: #216900 ;
     cursor: pointer;
 }
 .productBebidas:hover{
-    background-color: #94723f;
+    background-color: #2f9201;
     margin-left: 0.4vw;
 }
 .productBebidas:focus-within{
-    background-color: #94723f;
+    background-color: #2f9201;
     color: #FFF9F9;
 }
 .productsLunch{
@@ -249,7 +249,7 @@
     left: 4.5vw;
     height:8vh;
     width: 20vw;
-    background: #B88E4F;
+    background: #b36225;
     border: none;
     font-family: 'Lora', 'serif'; 
     color: #FFF9F9;

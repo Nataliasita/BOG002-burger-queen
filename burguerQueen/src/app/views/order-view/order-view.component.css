@@ -14,7 +14,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2vh;
     grid-row: auto;
-    background-color: blue;
 }
 .resume_order::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -50,28 +49,38 @@
 #data_cliente{
     display: flex;
     position: absolute;
-    height: 4vh;
-    width: 45vw;
-    background-color: crimson;
+    height: 5vh;
+    width: 40vw;
     justify-content: center;
-    top: 8vh;
+    top: 9vh;
+    left: 4vw;
+    border-bottom: #3F1B00  solid 1px;
+    font-weight: bold;
 }
 #nombre_registrado{
     position: absolute;
-    left: 4vw;
+    left: 2vw;
 }
 #mesa_registrada{
     position: absolute;
     right: 10vw;
+}
+#data_name{
+    position: absolute;
+    left: 10.5vw;
+}
+#data_mesa{
+    position: absolute;
+    right: 4vw;
 }
 .atributte{
     margin-top: 10.5vh;
     width: 48.3vw;
     display: flex;
     font-size: 1.1em;
-    top:3vh;
+    top:6vh;
     position: absolute;
-    background-color: chartreuse;
+
 }
 #item{
     padding: 0 1.2vw 0 1.3vw;
@@ -85,16 +94,8 @@
 #items_order{
     display: grid;
     width: 48.5vw;
-    margin-top: 16vh;
+    margin-top: 19vh;
     padding-bottom: 17vh;
     margin-left: 0.3vw;
     align-self: start;
-    background-color: chocolate;
-}
-.prueba{
-    display: grid;
-    background-color: darkgreen;
-    height: 10vh;
-    width: 48vw;
-    margin: 3vh 0 3vh 0;
 }

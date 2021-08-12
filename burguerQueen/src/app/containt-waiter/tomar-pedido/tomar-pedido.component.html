@@ -7,11 +7,19 @@
              <div class="order">
                   <h1 id="titleOrder">Datos del pedido</h1>
 
-                        <form action="">
-                            <label id="name1" for="name_user">Nombre del cliente</label> <input  pattern="[A-z]{7,15}" required id="name_user" type="text" name="op">
-                            <label for="num_mesa" id="num1">Mesa</label><input id="num_mesa" type="number" name="op">
-                        </form>
-                                <button id="datos_cliente">Grabar Datos</button>
+                      
+                            <label id="name1" for="name_user">Nombre del cliente</label> 
+                            <input placeholder="Ingresa el nombre de cliente" pattern="[A-z]{7,15}" 
+                            required id="name_user" type="text" name="name"
+                           
+                            >
+                            <label for="num_mesa" id="num1">Mesa</label>
+                            <input id="num_mesa" type="number" placeholder="N° mesa" name="Mesa"
+                           >
+
+                                   <button id="datos_cliente" type="submit">Grabar Datos</button>
+                
+                                
 
                                   <app-order-view></app-order-view>   
                                   

@@ -104,6 +104,7 @@
     background-color: #d1a07a33;
     font-family: 'lora';
     outline: none;
+    padding-left: 1vw;
 }
 #num1{
     position: absolute;
@@ -124,6 +125,7 @@
     background-color: #d1a07a33;
     font-family: 'lora';
     outline: none;
+    padding-left: 1vw;
 }
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {

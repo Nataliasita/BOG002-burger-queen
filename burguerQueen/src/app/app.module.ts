@@ -25,7 +25,8 @@ import { ItemContadorComponent } from './item/item-contador/item-contador.compon
 import { ItemOrderComponent } from './item/item-order/item-order.component';
 
 //servicios
-import { ConexionService } from './services/conexion.service'
+import { ConexionService } from './services/conexion.service';
+import { CardPreviewComponent } from './productos/card-preview/card-preview.component'
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ConexionService } from './services/conexion.service'
     ViewMainComponent,
     OrderViewComponent,
     ItemContadorComponent,
-    ItemOrderComponent
+    ItemOrderComponent,
+    CardPreviewComponent
   ],
   imports: [
     BrowserModule,
